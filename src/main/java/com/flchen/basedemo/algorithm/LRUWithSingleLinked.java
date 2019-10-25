@@ -12,7 +12,7 @@ import java.util.List;
  * Date: 2019/10/13
  * Time: 11:05 AM
  *
- * @Description: 利用单身链表实现LRU（Least Recently Used）算法：
+ * @Description: 利用单身链表实现LRU（Least Recently Used - 最近最少使用）算法：
  * 固定边界缓存空间，当有新缓存进入时插入到最前部，同时淘汰最末尾元素；
  * 当缓存元素被命中时，移动到首部
  **/
