@@ -49,4 +49,15 @@ public class SortDemosTest {
         Assert.assertEquals(4, arr[3]);
         Assert.assertEquals(5, arr[4]);
     }
+
+    @Test
+    public void testMergeSort() {
+        int[] arr = {5,3,4,1,2};
+        SortDemos sd = new SortDemos();
+
+        sd.mergeSort(arr);
+        Assert.assertEquals(1, arr[0]);
+        Assert.assertEquals(4, arr[3]);
+        Assert.assertEquals(5, arr[4]);
+    }
 }
